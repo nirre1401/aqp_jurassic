@@ -1,0 +1,19 @@
+
+{
+    'Target_variable': 'MOU_OUT_M3',
+    'agg_function': 'sum',
+    'raw_data_name': 'ww_churn_loss_raw_data.csv',
+    'meta_data_name': 'ww_churn.csv',
+    'index_cols': '',
+    'num_members': 2,
+    'p_min': 95,
+    'p_max': 100,
+    'num_clusters': 4,
+    'max_clusters': 10,
+    'Describe': ['count', 'mean', 'std', 'min', 'p25', 'p50', 'p75', 'max'],
+    'desired_information_on_target_variable': ['count', 'mean', 'p25', 'p50', 'p75'],
+    'rep_pickle_file_name' : 'rand_ww_churn_sum_MOU_OUT_M3_PreChurn__id_2_vec_rep20190208-112414.pickle'
+
+
+}
+

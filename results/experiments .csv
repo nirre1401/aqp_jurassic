@@ -1,0 +1,10 @@
+#,dataset name,target,url,row|columns,RMSE,Query/Sec
+1,bank,mean_balance,https://www.kaggle.com/datasets/neelesh0602/bankcsv,11163|16,4.337,
+2,car,mean_selling_price,https://www.kaggle.com/datasets/goyalshalini93/car-data,302|9,52.992,
+3,elections,mean_candidatevotes,https://www.kaggle.com/datasets/tunguz/us-elections-dataset,4288|15,22.475,
+4,Employees,mean_age,https://www.kaggle.com/datasets/tawfikelmetwally/employee-dataset,4655|9,3.273,
+5,Healthcase Stroke,mean_bmi,https://www.kaggle.com/datasets/fedesoriano/stroke-prediction-dataset,5111|12,25.187,
+6,Hotel Reservation,mean_price_per_room,https://www.kaggle.com/datasets/ahsan81/hotel-reservations-classification-dataset/data,36276|20,356.479,
+7,Pizza,mean_total_price,https://www.kaggle.com/datasets/datafiniti/pizza-restaurants-and-the-pizza-they-sell,48620|12,7.876,
+8,Toy,mean_Income,https://www.kaggle.com/datasets/carlolepelaars/toy-dataset,150000|5,822.575,
+9,Walmart,mean_Weekly_Sales,https://www.kaggle.com/datasets/yasserh/walmart-dataset,6436|8,1557.081,

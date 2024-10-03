@@ -1,0 +1,9 @@
+Id,Name,Type,Num_Values_To_Sample,Select,where,WhereClauseQueryOrder,distinct_values,distribution_table_name
+1,Income,Measure,na,1,0,,,
+2,Illness,Dim,1,0,1,,,
+4,City,Dim,1,0,1,,,
+5,Gender,Dim,1,0,1,,,
+6,Age,Measure,na,0,1,,,
+
+
+

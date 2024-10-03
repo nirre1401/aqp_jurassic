@@ -1,0 +1,9 @@
+Id,Name,Type,Num_Values_To_Sample,Select,where,WhereClauseQueryOrder,distinct_values,distribution_table_name
+1,bmi,Measure,na,1,0,,,
+2,smoking_status,Dim,1,0,1,,,
+4,age,Measure,na,0,1,,,
+5,gender,Dim,1,0,1,,,
+6,avg_glucose_level,Measure,na,0,1,,,
+
+
+

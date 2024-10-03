@@ -1,0 +1,9 @@
+Id,Name,Type,Num_Values_To_Sample,Select,where,WhereClauseQueryOrder,distinct_values,distribution_table_name
+1,Weekly_Sales,Measure,na,1,0,,,
+2,Fuel_Price,Measure,na,0,1,,,
+4,Holiday_Flag,Dim,1,0,1,,,
+5,Store,Dim,1,0,1,,,
+6,Fuel_Price,Measure,na,0,1,,,
+
+
+

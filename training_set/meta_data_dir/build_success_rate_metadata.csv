@@ -1,0 +1,6 @@
+Id,Name,Type,Num_Values_To_Sample,Select,where,WhereClauseQueryOrder
+1,AccountId,Dim,1,0,1,
+2,build_success_rate,Measure,na,1,0,
+3,day,Measure,na,0,1,2
+4,count_build_starts,Measure,,0,1,
+5,date,Date,,,,

@@ -1,0 +1,9 @@
+Id,Name,Type,Num_Values_To_Sample,Select,where,WhereClauseQueryOrder,distinct_values,distribution_table_name
+1,Age,Measure,na,1,0,,,
+2,ExperienceInCurrentDomain,Measure,na,0,1,,,
+4,Education,Dim,1,0,1,,,
+5,City,Dim,1,0,1,,,
+6,JoiningYear,Measure,na,0,1,,,
+
+
+

@@ -1,0 +1,51 @@
+{
+'loss_function' : 'binary_crossentropy',#'squared_hinge', # custom (huber loss) otherwise mse, 'binary_crossentropy' for classification
+'nb_epocs': 200,
+'lr': 0.001,
+'pickle_name' : 'churnincrementallear',
+'ds_name' : 'churnincrementallear',
+'nb_neurons_first_layer' : 128,
+'nb_neurons_dense_layer' : 200,
+'optimizer_type' : 'Adam', # options: SGD, RMSprop, Adagrad, Adadelta, Adam, Adamax, Nadam,
+'num_layers' : 1, # odd number please greater or equal to 1 unless its CNN (where odd number is ok)
+'model_arc' : 'LSTM' ,# Options: 'LSTM' , 'CNN', 'MLP' for classification
+'aggregation_kpi_list' : ['Defect_Prediction'],
+'input_representation' : '1hot',
+'kernel_size' : 2, # for 1D CNN
+'limit_training_pickle_max_rows' : -1, # use only if training epoch is too slow
+'loop_training' : False, # sometime useful when you want to boost training accuracy - keeps going forever until you stop it
+'testing_set_prediction_size' : 500,
+# PLEASE use these next 2 params only if you would like to resume training from last weights state
+#'model_json_name' : '3497_loss_count_UKEY_model_lr_0.001_nb_epoch_500_batch_65536_dataset_name_ww_churn.json', # for retraining from last NN state
+#'model_file_name' : '3497_loss_count_UKEY_model_lr_0.001_nb_epoch_500_batch_65536_dataset_name_ww_churn.h5', # for retraining from last NN state
+'model_file_path' : 'saved_models',
+'num_classes' : 2, # relevant if MLP (classification problem) is chosen
+'save_weights_callback' : False,
+'num_gpus' : 1, # determined automatically
+'non_negative_predictions ' : False,
+'weights_save_period' : 5,
+#'balance_dataset_factor_percentile' :90, # WILL AUGMENT the data by those examples above this percentile
+#'balance_dataset_factor' : 5, # augmentation factor - every example above balance_dataset_factor_percentile will be multiplied <balance_dataset_factor> times
+'batch_size': 1024,
+#'target_norm_factor' : 1000, # if > 1 it will multiply the target by <target_norm_factor> (good for very small numbers)
+'custom_loss' : True,
+'epoch_num_automatic_determination' : False,
+'dropout' : 'dropout',
+'norm_ind' : 'nonorm',
+'input_scale' : False,
+'stacked_ind' : 'stacked',
+#'custom_init' - according to NG from dl coursera np.random.randn(shape[0],shape[1])*np.sqrt(2/shape[1])))
+# shape[1] - # of neurons coming into a neuron at the current layer
+# uniform - [-1/sqrt(n) +1/sqrt(n)]
+# gauss with mean and sd
+'weight_init_method': 'gauss', # by_target_distr  (checking the target stdev and mean and init accordingly)
+'weight_init_mean': 0,
+'weight_init_sd': 1,
+'dynamic_weight_init' : False, # KEEP IT FALSE!!! will override  weight_init_mean/sd with the median and std of target var
+'compact_input_representation': False, # if training set was not compacted with PCA, that parameter should be False
+#'default_output_path' : 'N:\hunch',
+'multiple_pickle_files' : True,
+'early_stop_factor' : 0.00001,
+'early_stop_ind' : False,
+
+}

@@ -1,0 +1,13 @@
+Id,Name,Type,Select,where
+1,UKEY,ignore,1,0
+2,STATUS_DV,Dim,0,1
+3,SUBSCRIBER_TYPE,Dim,0,1
+4,DEVICE,Dim,0,1
+5,DATA_GROUPING,ignore,0,1
+6,INTERNATIONAL,ignore,0,1
+7,Calling_Circle_Group1,ignore,0,1
+8,ARPU_M3,Measure,0,1
+9,MOU_OUT_M3,ignore,0,1
+10,MOU_zslope,ignore,0,1
+11,Weeks_Since_Activation,ignore,0,1
+12,date_2000_hours,Date,0,1

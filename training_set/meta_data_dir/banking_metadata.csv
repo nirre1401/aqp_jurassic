@@ -1,0 +1,9 @@
+Id,Name,Type,Num_Values_To_Sample,Select,where,WhereClauseQueryOrder,distinct_values,distribution_table_name
+1,y,Measure,na,1,0,,,
+2,loan,Dim,na,0,1,,,
+4,housing,Dim,1,0,1,,,
+5,job,Dim,1,0,1,,,
+6,age,Measure,na,0,1,,,
+
+
+

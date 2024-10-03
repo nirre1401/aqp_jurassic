@@ -1,0 +1,16 @@
+2024-01-18 13:49:03,091 [INFO] - #HUNCH: INFO - START TRAINING SET GENERATION
+2024-01-18 13:49:03,318 [INFO] - SYSTEM CONFIGURATION : mode = batch | num queries = 50 | impute value = None | data_dir set name = Hotel_Reservation | max number row per file = -1 | and data_dir = ./data :
+2024-01-18 13:49:03,318 [INFO] - STARTING TO READ DATA
+2024-01-18 13:49:03,429 [INFO] - FINISHED READING DATA IN  0.0 MINUTES
+2024-01-18 13:49:03,429 [INFO] - ***************************************************************************************************************
+2024-01-18 13:49:03,429 [INFO] - ***************************************************************************************************************
+2024-01-18 13:49:03,447 [INFO] -    Id                Name  ... distinct_values distribution_table_name
+0   1  avg_price_per_room  ...             NaN                     NaN
+1   2        no_of_adults  ...             NaN                     NaN
+2   4   type_of_meal_plan  ...             NaN                     NaN
+3   5  room_type_reserved  ...             NaN                     NaN
+4   6      no_of_children  ...             NaN                     NaN
+
+[5 rows x 9 columns]
+2024-01-18 13:49:03,447 [INFO] - going to generate 50 queries
+2024-01-18 13:49:05,507 [INFO] - #HUNCH: INFO - STARTING TO RUN QUERIES AGAINST DATA

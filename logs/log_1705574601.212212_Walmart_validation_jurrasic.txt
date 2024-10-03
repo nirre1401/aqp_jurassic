@@ -1,0 +1,15 @@
+2024-01-18 12:43:21,212 [INFO] - #HUNCH: INFO - START TRAINING SET GENERATION
+2024-01-18 12:43:21,442 [INFO] - SYSTEM CONFIGURATION : mode = batch | num queries = 50 | impute value = None | data_dir set name = bank | max number row per file = -1 | and data_dir = ./data :
+2024-01-18 12:43:21,442 [INFO] - STARTING TO READ DATA
+2024-01-18 12:43:21,486 [INFO] - FINISHED READING DATA IN  0.0 MINUTES
+2024-01-18 12:43:21,486 [INFO] - ***************************************************************************************************************
+2024-01-18 12:43:21,486 [INFO] - ***************************************************************************************************************
+2024-01-18 12:43:21,503 [INFO] -    Id       Name  ... distinct_values distribution_table_name
+0   1    balance  ...             NaN                     NaN
+1   2       loan  ...             NaN                     NaN
+2   4  education  ...             NaN                     NaN
+3   5        job  ...             NaN                     NaN
+4   6        age  ...             NaN                     NaN
+
+[5 rows x 9 columns]
+2024-01-18 12:43:21,504 [INFO] - going to generate 50 queries

@@ -1,0 +1,3 @@
+2024-01-18 13:13:28,897 [INFO] - #HUNCH: INFO - START TRAINING SET GENERATION
+2024-01-18 13:13:29,150 [INFO] - SYSTEM CONFIGURATION : mode = batch | num queries = 50 | impute value = None | data_dir set name = car | max number row per file = -1 | and data_dir = ./data :
+2024-01-18 13:13:29,155 [INFO] - STARTING TO READ DATA

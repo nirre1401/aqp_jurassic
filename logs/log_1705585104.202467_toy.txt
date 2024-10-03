@@ -1,0 +1,16 @@
+2024-01-18 15:38:24,203 [INFO] - #HUNCH: INFO - START TRAINING SET GENERATION
+2024-01-18 15:38:24,483 [INFO] - SYSTEM CONFIGURATION : mode = batch | num queries = 500 | impute value = None | data_dir set name = toy | max number row per file = -1 | and data_dir = ./data :
+2024-01-18 15:38:24,483 [INFO] - STARTING TO READ DATA
+2024-01-18 15:38:24,871 [INFO] - FINISHED READING DATA IN  0.0 MINUTES
+2024-01-18 15:38:24,871 [INFO] - ***************************************************************************************************************
+2024-01-18 15:38:24,871 [INFO] - ***************************************************************************************************************
+2024-01-18 15:38:24,924 [INFO] -    Id     Name  ... distinct_values distribution_table_name
+0   1   Income  ...             NaN                     NaN
+1   2  Illness  ...             NaN                     NaN
+2   4     City  ...             NaN                     NaN
+3   5   Gender  ...             NaN                     NaN
+4   6      Age  ...             NaN                     NaN
+
+[5 rows x 9 columns]
+2024-01-18 15:38:24,934 [INFO] - going to generate 500 queries
+2024-01-18 15:38:30,961 [INFO] - #HUNCH: INFO - STARTING TO RUN QUERIES AGAINST DATA

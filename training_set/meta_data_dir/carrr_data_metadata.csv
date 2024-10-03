@@ -1,0 +1,9 @@
+Id,Name,Type,Num_Values_To_Sample,Select,where,WhereClauseQueryOrder,distinct_values,distribution_table_name
+1,Selling_Price,Measure,na,1,0,,,
+2,Present_Price,Measure,na,0,1,,,
+4,Owner,Dim,1,0,1,,,
+5,Seller_Type,Dim,1,0,1,,,
+6,Kms_Driven,Measure,na,0,1,,,
+
+
+
